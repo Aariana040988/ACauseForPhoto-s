@@ -1,0 +1,67 @@
+﻿body {
+background: url("Bald_Eagle_2.jpeg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+background-attachment: scroll;
+height: 1000px;
+margin: 0;
+}
+p {
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+a {
+
+color: #667788;
+}
+
+.wrapper {
+
+margin: 0;
+max-width: 100%;
+}
+.bubble {
+    padding: 10px 25px;
+    opacity: 0.6;
+    -webkit-border-radius: 1em;
+    background-color: white;
+    margin: auto;
+    width: 800px;
+}
+.pink {
+    color: #cc4488;
+}
+#logo {
+    float:left;
+    width:45px;
+    height:52px;
+}
+#logo_box {
+    width: 800px;
+}
+#navbar {
+    background-color: #25383C;
+    width: 100%;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+nav ul li {
+    list-style: disc;
+    display: inline;
+    padding: 0 7px;
+    margin: 0;
+    
+}
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: hotpink;
+}
